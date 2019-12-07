@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workflows_Day2_name": {
+            "value": "Day2"
+        },
+        "workflows_Day2_parameters_$connections": {
+            "value": {
+                "gmail": {
+                    "connectionId": "/subscriptions/3f075df0-08e5-47d0-b6f4-bfc3cd11c787/resourceGroups/sk25daysofserverless/providers/Microsoft.Web/connections/gmail",
+                    "connectionName": "gmail",
+                    "id": "/subscriptions/3f075df0-08e5-47d0-b6f4-bfc3cd11c787/providers/Microsoft.Web/locations/southindia/managedApis/gmail"
+                }
+            }
+        },
+        "workflows_Day2_parameters_LUCY_EMAIL_ID": {
+            "value": "lucy.dec13@yopmail.com"
+        },
+        "workflows_Day2_parameters_TIME_TO_DELIVER_COFFEE": {
+            "value": 4
+        },
+        "workflows_Day2_parameters_TIME_TO_PREPARE_COFFEE": {
+            "value": 25
+        },
+        "workflows_Day2_parameters_TIME_TO_RELIT_CANDLE": {
+            "value": 10
+        }
+    }
+}
